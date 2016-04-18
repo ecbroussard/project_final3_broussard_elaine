@@ -14,12 +14,6 @@ header h1 {
 	display: none;
 }
 
-#logo {
-	width: 95%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 nav {
 	width: 95%;
 	margin-left: auto;
@@ -33,20 +27,19 @@ nav img {
 header, footer {
 	background-color: black;
 	padding: 1.5em;
-	text-align: center;
 	color: white;
 }
 
-#socialmediaheader {
-	display: none;
+footer p {
+	text-align: center;
 }
 
-footer ul li {
+header ul li, footer ul li {
 	display: inline;
 	list-style-type: none;
 }
 
-footer ul img {
+header ul img, footer ul img {
 	width: 18%;
 }
 
@@ -71,4 +64,71 @@ main h2 {
 	font-weight: bold;
 	color: #0055a0;
 	font-size: 175%;
+}
+
+@media (max-width: 700px) {
+	#socialmediaheader {
+		display: none;
+	}
+
+	#logo {
+		width: 95%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media (min-width: 700px) {
+	body {
+		background-image: url(../img/backgroundwithalien.jpg);
+	}
+
+	#logo {
+		width: 22%;
+		margin-left: 5%;
+		margin-right: 30%;
+		float: left;
+	}
+
+	#socialmediaheader img {
+		width: 8%;
+	}
+
+	#socialmediaheader {
+		margin-top: 3%;
+	}
+
+	#socialmediafooter {
+		display: none;
+	}
+
+	nav img {
+		width: 17%;
+		margin-left: 7%;
+	}
+
+	main {
+		width: 45%;
+		margin-left: 35%;
+		margin-top: -32%;
+		border-radius: 5%;
+		border: 0.5em solid red;
+	}
+
+	header {
+		padding-bottom: 3em;
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+
+	footer {
+		padding: 0.5em;
+	}
+
+	#footernav {
+		text-align: center;
+	}
+
+	#footernav ul li {
+		text-decoration: none;
+	}
 }
