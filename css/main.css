@@ -1,0 +1,74 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	background-color: #002b34;
+	background-image: url(../img/backgroundwithjuststars.jpg);
+	font-family: Lato, Arial, Helvetica, sans-serif;
+}
+
+header h1 {
+	display: none;
+}
+
+#logo {
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav {
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav img {
+	width: 80%;
+}
+
+header, footer {
+	background-color: black;
+	padding: 1.5em;
+	text-align: center;
+	color: white;
+}
+
+#socialmediaheader {
+	display: none;
+}
+
+footer ul li {
+	display: inline;
+	list-style-type: none;
+}
+
+footer ul img {
+	width: 18%;
+}
+
+main {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	background-color: white;
+}
+
+main h1 {
+	font-family: 'Audiowide', cursive;
+	color: #9ecb3a;
+	text-shadow: 1px 1px 1px #878787;
+	font-size: 225%;
+	text-align: center;
+}
+
+main h2 {
+	font-family: 'Comfortaa', cursive;
+	font-weight: bold;
+	color: #0055a0;
+	font-size: 175%;
+}
