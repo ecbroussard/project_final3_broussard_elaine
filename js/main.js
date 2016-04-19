@@ -87,4 +87,5 @@ $( document ).ready(function() {
 		}
 		document.getElementById('menucontent').style.display='block';
 	}
+	$('h1').addGlow();
 });
