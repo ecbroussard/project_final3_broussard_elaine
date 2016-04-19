@@ -80,6 +80,10 @@ main h2 {
 	color: red;
 }
 
+#specialscontent, #eventscontent, #contactcontent {
+	display: none;
+}
+
 @media (max-width: 700px) {
 	#socialmediaheader {
 		display: none;
