@@ -88,4 +88,7 @@ $( document ).ready(function() {
 		document.getElementById('menucontent').style.display='block';
 	}
 	$('h1').addGlow();
+	$('body').jstars({
+		image_path: 'img'
+	});
 });
