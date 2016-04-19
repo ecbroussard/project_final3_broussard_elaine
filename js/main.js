@@ -59,4 +59,32 @@ $( document ).ready(function() {
 		}
 		document.getElementById('menucontent').style.display='block';
 	}
+	document.getElementById( 'footerspecials').onclick = function(event) {
+		var contentdivs = document.getElementsByClassName( 'maincontent' );
+		for ( var i=0; i < contentdivs.length; i++) {
+			contentdivs[i].style.display = 'none';
+		}
+		document.getElementById('specialscontent').style.display='block';
+	}
+	document.getElementById( 'footerevents').onclick = function(event) {
+		var contentdivs = document.getElementsByClassName( 'maincontent' );
+		for ( var i=0; i < contentdivs.length; i++) {
+			contentdivs[i].style.display = 'none';
+		}
+		document.getElementById('eventscontent').style.display='block';
+	}
+	document.getElementById( 'footercontact').onclick = function(event) {
+		var contentdivs = document.getElementsByClassName( 'maincontent' );
+		for ( var i=0; i < contentdivs.length; i++) {
+			contentdivs[i].style.display = 'none';
+		}
+		document.getElementById('contactcontent').style.display='block';
+	}
+	document.getElementById( 'footermenu').onclick = function(event) {
+		var contentdivs = document.getElementsByClassName( 'maincontent' );
+		for ( var i=0; i < contentdivs.length; i++) {
+			contentdivs[i].style.display = 'none';
+		}
+		document.getElementById('menucontent').style.display='block';
+	}
 });
