@@ -91,10 +91,6 @@ main img {
 	color: red;
 }
 
-#specialscontent, #eventscontent, #contactcontent {
-	display: none;
-}
-
 #socialmediaheader ul, #socialmediafooter ul {
 	padding: 0;
 }
