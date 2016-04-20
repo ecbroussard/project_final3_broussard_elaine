@@ -65,6 +65,14 @@ main h2 {
 	border-bottom: 0.2em solid #0055a0;
 }
 
+main img {
+	width: 40%;
+	float: left;
+	margin-right: 0.75em;
+	margin-bottom: 0.75em;
+	border: .125em solid red;
+}
+
 #footernav {
 	text-align: center;
 }

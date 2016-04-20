@@ -87,7 +87,11 @@ $( document ).ready(function() {
 		}
 		document.getElementById('menucontent').style.display='block';
 	}
-	$('h1').addGlow();
+	$('h1').addGlow({
+		radius: 20,
+		haloColor: '#0055a0',
+		duration: 200
+	});
 	$('body').jstars({
 		image_path: 'img'
 	});
