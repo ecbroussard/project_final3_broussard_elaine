@@ -1,103 +1,103 @@
-$( document ).ready(function() {
-	$("#menu").hover(
+$( document ).ready( function() {
+		$( '#menu' ).hover(
 		function() {
-			$(this).prop("src", "img/menuactive.png");
+			$( this ).prop( 'src', 'img/menuactive.png' );
 		},
 		function() {
-			$(this).prop("src", "img/menuinactive.png");
+			$( this ).prop( 'src', 'img/menuinactive.png' );
 		}
 	);
-	$("#specials").hover(
+	$( '#specials' ).hover(
 		function() {
-			$(this).prop("src", "img/specialsactive.png");
+			$( this ).prop( 'src', 'img/specialsactive.png' );
 		},
 		function() {
-			$(this).prop("src", "img/specialsinactive.png");
+			$( this ).prop( 'src', 'img/specialsinactive.png' );
 		}
 	);
-	$("#events").hover(
+	$( '#events' ).hover(
 		function() {
-			$(this).prop("src", "img/eventsactive.png");
+			$( this ).prop( 'src', 'img/eventsactive.png' );
 		},
 		function() {
-			$(this).prop("src", "img/eventsinactive.png");
+			$( this ).prop( 'src', 'img/eventsinactive.png' );
 		}
 	);
-	$("#contact").hover(
+	$( '#contact' ).hover(
 		function() {
-			$(this).prop("src", "img/contactactive.png");
+			$( this ).prop( 'src', 'img/contactactive.png' );
 		},
 		function() {
-			$(this).prop("src", "img/contactinactive.png");
+			$( this ).prop( 'src', 'img/contactinactive.png' );
 		}
 	);
 	var contentdivs = document.getElementsByClassName( 'maincontent' );
-	for ( var i=0; i < contentdivs.length; i++) {
-		contentdivs[i].style.display = 'none';
+	for ( var i = 0; i < contentdivs.length; i++ ) {
+		contentdivs[ i ].style.display = 'none';
 	}
-	document.getElementById('menucontent').style.display='block';
-	document.getElementById( 'specials').onclick = function(event) {
+	document.getElementById( 'menucontent' ).style.display = 'block';
+	document.getElementById( 'specials' ).onclick = function( event ) {
 		var contentdivs = document.getElementsByClassName( 'maincontent' );
-		for ( var i=0; i < contentdivs.length; i++) {
-			contentdivs[i].style.display = 'none';
+		for ( var i = 0; i < contentdivs.length; i++ ) {
+			contentdivs[ i ].style.display = 'none';
 		}
-		document.getElementById('specialscontent').style.display='block';
-	}
-	document.getElementById( 'events').onclick = function(event) {
+		document.getElementById( 'specialscontent' ).style.display = 'block';
+	};
+	document.getElementById( 'events' ).onclick = function( event ) {
 		var contentdivs = document.getElementsByClassName( 'maincontent' );
-		for ( var i=0; i < contentdivs.length; i++) {
-			contentdivs[i].style.display = 'none';
+		for ( var i = 0; i < contentdivs.length; i++ ) {
+			contentdivs[ i ].style.display = 'none';
 		}
-		document.getElementById('eventscontent').style.display='block';
-	}
-	document.getElementById( 'contact').onclick = function(event) {
+		document.getElementById( 'eventscontent' ).style.display = 'block';
+	};
+	document.getElementById( 'contact' ).onclick = function( event ) {
 		var contentdivs = document.getElementsByClassName( 'maincontent' );
-		for ( var i=0; i < contentdivs.length; i++) {
-			contentdivs[i].style.display = 'none';
+		for ( var i = 0; i < contentdivs.length; i++ ) {
+			contentdivs[ i ].style.display = 'none';
 		}
-		document.getElementById('contactcontent').style.display='block';
-	}
-	document.getElementById( 'menu').onclick = function(event) {
+		document.getElementById( 'contactcontent' ).style.display = 'block';
+	};
+	document.getElementById( 'menu' ).onclick = function( event ) {
 		var contentdivs = document.getElementsByClassName( 'maincontent' );
-		for ( var i=0; i < contentdivs.length; i++) {
-			contentdivs[i].style.display = 'none';
+		for ( var i = 0; i < contentdivs.length; i++ ) {
+			contentdivs[ i ].style.display = 'none';
 		}
-		document.getElementById('menucontent').style.display='block';
-	}
-	document.getElementById( 'footerspecials').onclick = function(event) {
+		document.getElementById( 'menucontent' ).style.display = 'block';
+	};
+	document.getElementById( 'footerspecials' ).onclick = function( event ) {
 		var contentdivs = document.getElementsByClassName( 'maincontent' );
-		for ( var i=0; i < contentdivs.length; i++) {
-			contentdivs[i].style.display = 'none';
+		for ( var i = 0; i < contentdivs.length; i++ ) {
+			contentdivs[ i ].style.display = 'none';
 		}
-		document.getElementById('specialscontent').style.display='block';
-	}
-	document.getElementById( 'footerevents').onclick = function(event) {
+		document.getElementById( 'specialscontent' ).style.display = 'block';
+	};
+	document.getElementById( 'footerevents' ).onclick = function( event ) {
 		var contentdivs = document.getElementsByClassName( 'maincontent' );
-		for ( var i=0; i < contentdivs.length; i++) {
-			contentdivs[i].style.display = 'none';
+		for ( var i = 0; i < contentdivs.length; i++ ) {
+			contentdivs[ i ].style.display = 'none';
 		}
-		document.getElementById('eventscontent').style.display='block';
-	}
-	document.getElementById( 'footercontact').onclick = function(event) {
+		document.getElementById( 'eventscontent' ).style.display = 'block';
+	};
+	document.getElementById( 'footercontact' ).onclick = function( event ) {
 		var contentdivs = document.getElementsByClassName( 'maincontent' );
-		for ( var i=0; i < contentdivs.length; i++) {
-			contentdivs[i].style.display = 'none';
+		for ( var i = 0; i < contentdivs.length; i++ ) {
+			contentdivs[ i ].style.display = 'none';
 		}
-		document.getElementById('contactcontent').style.display='block';
-	}
-	document.getElementById( 'footermenu').onclick = function(event) {
+		document.getElementById( 'contactcontent' ).style.display = 'block';
+	};
+	document.getElementById( 'footermenu' ).onclick = function( event ) {
 		var contentdivs = document.getElementsByClassName( 'maincontent' );
-		for ( var i=0; i < contentdivs.length; i++) {
-			contentdivs[i].style.display = 'none';
+		for ( var i = 0; i < contentdivs.length; i++ ) {
+			contentdivs[ i ].style.display = 'none';
 		}
-		document.getElementById('menucontent').style.display='block';
-	}
-	$('h1').addGlow({
+		document.getElementById( 'menucontent' ).style.display = 'block';
+	};
+	$( 'h1' ).addGlow( {
 		radius: 20,
 		haloColor: '#0055a0',
 		duration: 200
-	});
-	$('body').jstars({
+	} );
+	$( 'body' ).jstars( {
 		image_path: 'img'
-	});
-});
+	} );
+} );
