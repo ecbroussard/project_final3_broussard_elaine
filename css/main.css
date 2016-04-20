@@ -53,7 +53,7 @@ main {
 main h1 {
 	font-family: 'Audiowide', cursive;
 	color: #9ecb3a;
-	font-size: 350%;
+	font-size: 250%;
 	text-align: center;
 }
 
@@ -66,10 +66,9 @@ main h2 {
 }
 
 main img {
-	width: 40%;
-	float: left;
-	margin-right: 0.75em;
-	margin-bottom: 0.75em;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
 	border: .125em solid red;
 }
 
@@ -113,6 +112,16 @@ dt {
 	font-style: italic;
 }
 
+.dailyspecial {
+	border-radius: 2em;
+	border: 0.125em dashed red;
+	padding: 1em;
+}
+
+#specialscontent h2 {
+	text-align: center;
+}
+
 @media (max-width: 700px) {
 	#socialmediaheader {
 		display: none;
@@ -132,10 +141,10 @@ dt {
 @media (min-width: 700px) {
 	body {
 		background-image: url(../img/backgroundwithalien.jpg);
-		-webkit-background-size: cover;
-  		-moz-background-size: cover;
-  		-o-background-size: cover;
-  		background-size: cover;
+/*		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;*/
 	}
 
 	#logo {
@@ -200,4 +209,32 @@ dt {
 		color: red;
 	}
 
+	main img {
+		width: 40%;
+		float: left;
+		margin-right: 0.75em;
+		margin-bottom: 0.75em;
+	}
+
+	.dailyspecial {
+		margin-bottom: 1em;
+	}
+
+	.specialleft, .specialright, .specialmiddle {
+		width: 45%;
+	}
+
+	.specialleft {
+		float: left;
+	}
+
+	.specialright {
+		float: right;
+	}
+
+	.specialmiddle {
+		margin-left: auto;
+		margin-right: auto;
+		clear: both;
+	}
 }
