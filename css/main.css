@@ -137,10 +137,8 @@ dt {
 @media (min-width: 700px) {
 	body {
 		background-image: url(../img/backgroundwithalien.jpg);
-/*		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;*/
+		background-position: center bottom;
+		background-repeat: no-repeat;
 	}
 
 	#logo {
