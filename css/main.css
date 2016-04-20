@@ -1,3 +1,5 @@
+/* default styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -124,6 +126,8 @@ dt {
     text-align: center;
 }
 
+/* mobile only styles */
+
 @media (max-width: 700px) {
     #socialmediaheader {
         display: none;
@@ -139,6 +143,8 @@ dt {
         background-color: black;
     }
 }
+
+/* desktop only styles */
 
 @media (min-width: 700px) {
     body {
