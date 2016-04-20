@@ -111,7 +111,7 @@ dt {
 .dailyspecial {
 	border-radius: 2em;
 	border: 0.125em dashed red;
-	padding: 1em;
+	padding: 2%;
 }
 
 #specialscontent h2 {
@@ -212,23 +212,21 @@ dt {
 
 	.dailyspecial {
 		margin-bottom: 1em;
+		width: 42.5%;
 	}
 
-	.specialleft, .specialright, .specialmiddle {
-		width: 45%;
-	}
-
-	.specialleft {
+	.specialleft, .specialright {
 		float: left;
-	}
-
-	.specialright {
-		float: right;
 	}
 
 	.specialmiddle {
 		margin-left: auto;
 		margin-right: auto;
 		clear: both;
+	}
+
+	.specialleft {
+		margin-right: 2%;
+		margin-left: 2%;
 	}
 }
