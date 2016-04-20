@@ -1,4 +1,8 @@
 $( document ).ready( function() {
+
+	// This section of code is my custom jQuery code.
+	// The nav imgs (rockets) swap on mouseover.
+
 		$( '#menu' ).hover(
 		function() {
 			$( this ).prop( 'src', 'img/menuactive.png' );
@@ -31,6 +35,10 @@ $( document ).ready( function() {
 			$( this ).prop( 'src', 'img/contactinactive.png' );
 		}
 	);
+
+	// This section of code is my custom js code.
+	// It shows and hides content depending on nav link clicked.
+
 	var contentdivs = document.getElementsByClassName( 'maincontent' );
 	for ( var i = 0; i < contentdivs.length; i++ ) {
 		contentdivs[ i ].style.display = 'none';
@@ -92,11 +100,17 @@ $( document ).ready( function() {
 		}
 		document.getElementById( 'menucontent' ).style.display = 'block';
 	};
+
+	// Plugin #1 - adds glow to all H1s
+
 	$( 'h1' ).addGlow( {
 		radius: 20,
 		haloColor: '#0055a0',
 		duration: 200
 	} );
+
+	// Plugin #2 - adds stars to the cursor
+
 	$( 'body' ).jstars( {
 		image_path: 'img'
 	} );
