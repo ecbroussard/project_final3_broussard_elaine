@@ -257,4 +257,33 @@ dt {
     #drinks {
         float: right;
     }
+
+    #karaoke,
+    #arcadenight,
+    #magicnight {
+        width: 55%;
+        margin-left: 2%;
+    }
+
+    #magicnight img {
+        width: 35%;
+    }
+
+    #karaoke img,
+    #arcadenight img {
+        width: 50%;
+    }
+
+    #parties {
+        width: 30%;
+        float: right;
+        margin-right: 2%;
+        margin-top: 2%;
+        border: 0.125em red solid;
+        padding: 3%;
+    }
+
+    #parties img {
+        width: 100%;
+    }
 }
