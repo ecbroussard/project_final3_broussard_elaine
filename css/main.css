@@ -126,6 +126,15 @@ dt {
     text-align: center;
 }
 
+.dish {
+    color: red;
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
 /* mobile only styles */
 
 @media (max-width: 700px) {
