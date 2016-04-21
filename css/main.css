@@ -286,4 +286,21 @@ dt {
     #parties img {
         width: 100%;
     }
+
+    #ingredients {
+        width: 100%;
+        float: none;
+    }
+
+    #contactinfo {
+        width: 30%;
+        text-align: center;
+        float: right;
+        margin-right: 15%;
+    }
+
+    #contactcontent img {
+        width: 40%;
+        margin-left: 5%;
+    }
 }
